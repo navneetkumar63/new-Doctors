@@ -16,11 +16,11 @@ const Contact = () => {
 
 <div className='flex flex-col justify-center items-start gap-6'>
   <p className='font-semibold text-lg text-gray-700'>OUR OFFICE</p>
-  <p>3403 city Ghaziabad State-U.P,INDIA</p>
-  <p>Tel:(+91)6382-832-282 <br/> Email:navneetkumar991713@gmail.com</p>
-  <p> Carrers at Doctors</p>
-  <p> Learn  more about our team and job opening .</p>
-  <button> Explore Jobs</button>
+  <p className='text-gray-500'>3403 city Ghaziabad State-U.P,INDIA</p>
+  <p className='text-gray-500'>Tel:(+91)6382-832-282 <br/> Email:navneetkumar991713@gmail.com</p>
+  <p className='font-semibold text-lg text-gray-600'> Carrers at Doctors</p>
+  <p className='text-gray-500'> Learn  more about our team and job opening .</p>
+  <button className='border border-black px-8 py-4 text-sm rounded-full hover:bg-pink-500 hover:text-white'> Explore Jobs</button>
 </div>
     </div>
     </div>
